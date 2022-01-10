@@ -1731,7 +1731,7 @@ footer #powered-by-avalanche img {
 .team-section {
   /* border: 1px solid white; */
   height: 100vh;
-  padding: 2rem 5rem;
+  padding: ;
 }
 .team-section-tile {
   display: block;
@@ -1740,6 +1740,9 @@ footer #powered-by-avalanche img {
   color: var(--white);
   line-height: 130%;
   text-transform: uppercase;
+}
+.team-section-title {
+    padding: 60px;
 }
 .container {
   position: relative;
