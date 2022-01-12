@@ -170,7 +170,7 @@ template {
   font-weight: 400;
 }
 :root {
-  --brandprimary: #a40606;
+  --brandprimary: #e6500d;
   --brandsecondary: #d98324;
   --brandtertiary: #a1a1a1;
   --dark01: #1b5d2e;
@@ -320,7 +320,7 @@ p.small {
   font-family: Lufga, sans-serif;
   font-weight: 700;
   padding: 10px 15px;
-  background-color: var(--brandprimary);
+  background-color: #e6510d;
   color: var(--white);
   text-decoration: none;
   font-size: var(--font-18);
@@ -654,7 +654,7 @@ nav.socials ul li a:hover svg {
     132deg,
     var(--dark02) 0,
     var(--dark02) 57%,
-    #a40606 100%
+    #fb4f00 100%
   );
   margin-top: 70px;
 }
