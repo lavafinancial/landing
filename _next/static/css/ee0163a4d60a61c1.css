@@ -1841,3 +1841,20 @@ footer #powered-by-avalanche img {
 h1 {
     padding: 50px;
 }
+#hero .radar {
+  display: block;
+  width: 80%;
+  max-width: 500px;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  opacity: 0.3;
+  z-index: 1;
+  pointer-events: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 65vh;
+}
