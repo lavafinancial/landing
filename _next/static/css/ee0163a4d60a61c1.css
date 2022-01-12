@@ -173,11 +173,11 @@ template {
   --brandprimary: #a40606;
   --brandsecondary: #d98324;
   --brandtertiary: #a1a1a1;
-  --dark01: #234872;
-  --dark01-accent: #234872;
-  --dark02: #234872;
-  --dark02-accent: #234872;
-  --dark03: #234872;
+  --dark01: #1b5d2e;
+  --dark01-accent: #1b5d2e;
+  --dark02: #1b5d2e;
+  --dark02-accent: #1b5d2e;
+  --dark03: #1a5e2e;
   --dark03-accent: #23487215273c;
   --white: #fdf0d5;
 }
@@ -186,7 +186,7 @@ html {
   -webkit-overflow-scrolling: touch;
 }
 :root {
-  --body-bg: var(--dark02);
+  --body-bg: #308041;
   --txt-color: var(--white);
   --font-16: 12px;
   --font-18: 14px;
@@ -212,7 +212,7 @@ body {
 body {
   max-width: 100%;
   margin: 0;
-  background-color: var(--body-bg);
+  background-color: #1b5d2e;
   color: var(--txt-color);
   font-family: Poppins, sans-serif;
   font-weight: 400;
@@ -821,7 +821,7 @@ nav.socials ul li a:hover svg {
 }
 #overview {
   position: relative;
-  background-color: #183656;
+  background-color: #318142fa;
   padding: 100px 0;
   align-content: flex-end;
   z-index: 2;
@@ -1201,7 +1201,7 @@ nav.socials ul li a:hover svg {
 }
 #faq {
   padding: 50px 0 0;
-  background-color: var(--dark03);
+  background-color: #2f8141;
   position: relative;
 }
 #faq .outline-title span.outline {
@@ -1316,7 +1316,7 @@ nav.socials ul li a:hover svg {
 .faq-tab-panel.react-tabs__tab-panel--selected {
   display: flex;
   flex-direction: column;
-  background-color: var(--dark02);
+  background-color: #308041;
   padding-top: 20px;
 }
 .faq-question {
@@ -1365,7 +1365,7 @@ nav.socials ul li a:hover svg {
   background-color: grey;
 }
 .tabscont {
-  background-color: var(--dark02);
+  background-color: #308041;
 }
 footer {
   padding: 100px 0 0;
@@ -1731,7 +1731,7 @@ footer #powered-by-avalanche img {
 .team-section {
   /* border: 1px solid white; */
   height: 100vh;
-  padding: ;
+  /* padding: 2rem 5rem; */
 }
 .team-section-tile {
   display: block;
@@ -1740,9 +1740,6 @@ footer #powered-by-avalanche img {
   color: var(--white);
   line-height: 130%;
   text-transform: uppercase;
-}
-.team-section-title {
-    padding: 60px;
 }
 .container {
   position: relative;
