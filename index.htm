@@ -2,7 +2,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=5, user-scalable=1, viewport-fit=cover">
-    <meta name="description" content="Lava Financial is a hybrid node-as-a-service incubator that uses its treasury to invest in validator nodes in bluechip tokens like avax and ftm and to invest in early-stage crypto projects, allowing holders to benefit without any minimum staking requirements.">
+    <meta name="description" content="Lava Financial is a hybrid node-as-a-service on avax that uses its treasury to invest in validator nodes and in early-stage crypto projects.">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Lava Financial">
+<meta property="og:url" content="https://lava.financial">
+<meta property="og:image" content="https://www.lava.financial/_next/lavalogo.svg">
+<meta property="og:description" content="Lava Financial is a hybrid node as a service on avax.">
     <script src="https://kit.fontawesome.com/08e63ab518.js" crossorigin="anonymous"></script><style media="all" id="fa-v4-font-face">/*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -43,6 +48,109 @@
     <script src="_next/static/8GRDqz0GjAnuywtmlASwj/_buildManifest.js" defer=""></script>
     <script src="_next/static/8GRDqz0GjAnuywtmlASwj/_ssgManifest.js" defer=""></script>
     <script src="_next/static/8GRDqz0GjAnuywtmlASwj/_middlewareManifest.js" defer=""></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Lava Financial",
+  "alternateName": "lava financial",
+  "url": "https://lava.financial",
+  "logo": "https://www.lava.financial/_next/lavalogo.svg",
+  "sameAs": [
+    "https://twitter.com/lavanodes",
+    "https://www.youtube.com/channel/UChJXWec_UANBdg3aDtStUxQ",
+    "https://discord.gg/lavafinancial",
+    "https://github.com/lavafinancial"
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "Lava Financial",
+  "url": "https://lava.financial",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Is this just another fork of Olympus or Ring?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. While we have adopted certain features of Olympus, like the concept of protocol owned liquidity and bonding, the codebase for lava financial is being built from the ground up to support our vision of a redeemable tokenized reward index. No code is used from ring either. For node creation, all our contracts are bespoke in order to support the creation of \"true\" nodes with dedicated rpc endpoints."
+    }
+  },{
+    "@type": "Question",
+    "name": "So what makes you different from other Nodes?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Nodes on Lava Financial will be full-fledged nodes with a dedicated rpc endpoint, available to users and developers, alike. LAVA tokens will be stakeable and set number of lava tokens will be required for a full node. However, unlike any other project, LAVA nodes will emit nLAVA which would represent the yield on nodes and which can be redeemed for the underlying treasury investments.
+
+The flaw in the reward structure of other projects is that the reward tokens are distributed in the form of the actual protocol tokens, so the only way for stakers and node holders to take profit is by selling the native protocol token, putting massive downward selling pressure on the token. This explains why projects like strong are down over 50% from their highs.
+
+Unlike other projects, for those who cant or don't want to buy a full node, there will be a pool where the tokens can be staked and where deposits are aggregated to buy single nodes so users still get the return and benefits offered to full node holders. Lavas treasury will be used to purchase validator nodes in blue chip tokens like avax, ftm, and sol, as well as yield protocols such as Olympus. A proposal is also in the works to use treasury liquidity invest in private projects, like a launchpad or incubator, but with no minimum staking requirements. Our insights into the design and mechanics of the platform can be found in our medium"
+    }
+  },{
+    "@type": "Question",
+    "name": "What will Lava's treasury be investing in?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Creation of validator nodes in bluechips like ftm, avax, matic, and sol. The returns of these nodes are indexed and distributed to users in the form of nlava, which can then be redeemed for the underlying or compounded to earn more nLAVA.
+
+Private seed investments in promising crypto-projects. Tokens to be distributed to stakers when these are public, negating the need to use a lottery style launchpad.
+
+Investments in established protocols like Olympus.
+
+Creative yield generation strategies for stable coins, like ust on anchor(buying terra when use under peg, minting when over), looping with mim. Synthetic assets with alchemix(aUSD) and fUSD on fantom. Auto-compunding vaults.
+
+Lending on makerDAO, Compound, and dydx, with the eventual goal of native, on-platform lending."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I trust this project (KYC, Audit, Dox)?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We believe in complete transparency and due diligence from the start. This is why, prior to launch, lava financial has already completed and audit and private kyc with Coinscope. We also believe that any developer worth his salt should be willing to stand by his project. So our team has publicly doxxed, as well. Additionally, we are using a 3 key Multisig Gnosis to secure our treasury and lp. One held by me, one mod, and a trusted third party, selected by the community. Weekly video AMAs are also held to discuss ongoing developments and give community members the time to provide input, raise concerns, and make suggestions and proposals."
+    }
+  },{
+    "@type": "Question",
+    "name": "How will governance work?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Governance decisions, including actions concerning platform-level features and treasury investments, will rest entirely with the community and operate similar to a DAO. Users will be able to vote on and submit proposals using our voting platform powered by snapshot.org. Users will be able discuss these specific proposals in detail, including pros & cons, with other members on our forum."
+    }
+  },{
+    "@type": "Question",
+    "name": "What chain are you launching on?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Avalanche (AVAX)."
+    }
+  },{
+    "@type": "Question",
+    "name": "When is lava financial launching and how will the sale work?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Tentatively - 1 to 3 weeks. As mentioned previously, we're just wrapping up development first to ensure that we've been as thorough as possible and that the launch is smooth. For launch whitelisted buyers will be able to participate in our LBE(liquidity bootstrapping event). Max contribution will be 1000 MIM, with a rate of .50 mim per LAVA & 200 LAVA per node. A tapered vesting period will take place. This will be followed by our public launch 24-48 hours later, with an initial rate of .50 MIM per LAVA. Check out the article on our launch for further details. What we’re trying to do has never been done before. Specifically in creating an indexed reward token nLava, which can be redeemed for the actual underlying tokens held by the treasury, no matter the asset, rather than simply rewarding users with lava. This is pretty complex task, so we're being as thorough as possible in testing our reward distribution and redemption for nLava."
+    }
+  }]
+}
+</script>
+
   </head>
 
   <body>
