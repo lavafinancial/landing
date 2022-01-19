@@ -213,7 +213,7 @@ body {
   max-width: 100%;
   margin: 0;
   background-color: #1b5d2e;
-  color: var(--txt-color);
+  color: white;
   font-family: Poppins, sans-serif;
   font-weight: 400;
 }
@@ -849,7 +849,7 @@ nav.socials ul li a:hover svg {
 }
 #overview .contents p:nth-child(2),
 #overview .contents p:nth-child(3) {
-  color: var(--brandtertiary);
+  color: white;
 }
 #overview .contents p {
   margin-bottom: 50px;
