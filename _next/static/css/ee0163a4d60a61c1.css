@@ -849,7 +849,7 @@ nav.socials ul li a:hover svg {
 }
 #overview .contents p:nth-child(2),
 #overview .contents p:nth-child(3) {
-  color: var(--brandtertiary);
+  color: var(--txt-color);
 }
 #overview .contents p {
   margin-bottom: 50px;
