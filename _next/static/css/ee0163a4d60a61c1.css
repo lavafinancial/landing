@@ -213,7 +213,7 @@ body {
   max-width: 100%;
   margin: 0;
   background-color: #1b5d2e;
-  color: white;
+  color: var(--txt-color);
   font-family: Poppins, sans-serif;
   font-weight: 400;
 }
@@ -849,7 +849,7 @@ nav.socials ul li a:hover svg {
 }
 #overview .contents p:nth-child(2),
 #overview .contents p:nth-child(3) {
-  color: white;
+  color: var(--brandtertiary);
 }
 #overview .contents p {
   margin-bottom: 50px;
@@ -1519,7 +1519,7 @@ footer #powered-by-avalanche img {
     margin: 0;
   }
   #hero {
-    height: 100vh;
+    height: 80vh;
     max-height: 850px;
     padding: 0;
   }
