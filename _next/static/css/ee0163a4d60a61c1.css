@@ -398,9 +398,8 @@ p.small {
 }
 .outline-title h2:after {
   content: "";
-  width: 40px;
+  width: 80px;
   height: 3px;
-  margin: 15px 0 0 20px;
   display: block;
   background-color: var(--brandprimary);
 }
@@ -690,7 +689,7 @@ nav.socials ul li a:hover svg {
 #hero .caption h1 div.line2 {
   display: block;
   padding: 10px;
-  font-size: var(--font-50);
+  font-size: 30px;
 }
 #hero .caption .btn-group {
   display: flex;
@@ -1481,7 +1480,7 @@ footer #powered-by-avalanche img {
     margin-right: -30px;
   }
   .outline-title h2:after {
-    width: 100px;
+    width: 80px;
     height: 5px;
   }
   header {
