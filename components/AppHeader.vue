@@ -23,9 +23,22 @@
           <IconsIMedium class="w-6 h-6 sm:w-7 sm:h-7"/>
         </a>
       </div>
-      <a href="#" class="flex p-2 hover:text-lava-orange transition duration-200 ease-in-out ml-8">
-        Launch App
+      <a href="#" class="flex p-2 hover:text-lava-orange transition duration-200 ease-in-out ml-8"
+         @mouseenter="switchTextTo('Coming Soon')"
+         @mouseleave="switchTextTo('Launch App')"
+      >
+        {{ buttonText }}
       </a>
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+import { ref } from 'vue';
+
+const buttonText = ref('Launch App');
+
+const switchTextTo = (newText: string) => {
+  buttonText.value = newText;
+};
+</script>
