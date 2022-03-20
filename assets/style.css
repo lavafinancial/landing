@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-slate-100;
+    background: linear-gradient(to bottom, #1c0e3d, #0f051d);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .app-container {
+    @apply max-w-screen-xl mx-auto px-4 sm:px-8 lg:px-12;
+  }
+}
