@@ -14,7 +14,7 @@
            class="flex p-2 hover:text-lava-orange transition duration-200 ease-in-out">
           <IconsITelegram class="w-6 h-6 sm:w-7 sm:h-7"/>
         </a>
-        <a href="https://t.me/lavafinancial" target="_blank"
+        <a href="https://www.youtube.com/channel/UChJXWec_UANBdg3aDtStUxQ" target="_blank"
            class="flex p-2 hover:text-lava-orange transition duration-200 ease-in-out">
           <IconsIYouTube class="w-6 h-6 sm:w-7 sm:h-7"/>
         </a>
