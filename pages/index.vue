@@ -19,3 +19,34 @@
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+import { useHead } from '@vueuse/head';
+import { useRuntimeConfig } from '#app';
+
+const config = useRuntimeConfig()
+
+const title = "Lava Financial";
+const description = "Welcome to the most explosive place in DeFi."
+useHead({
+  title,
+  meta: [
+    {
+      name: 'description',
+      content: description,
+    },
+    {
+      property: 'og:description',
+      content: description,
+    },
+    {
+      property: 'og:title',
+      content: title,
+    },
+    {
+      property: 'og:image',
+      content: config.BASE_URL + '/imgs/og_default_image.jpg',
+    },
+  ]
+})
+</script>
