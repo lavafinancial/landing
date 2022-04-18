@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed z-50 top-0 left-0 right-0 text-white/80 pt-3 pb-3 sm:pt-6">
+  <div class="fixed z-50 top-0 left-0 right-0 text-white/80 py-3 sm:py-4 bg-[#1c0e3d]">
     <div class="app-container flex items-center justify-between sm:justify-end">
       <div class="flex items-center space-x-0">
         <a href="https://discord.gg/lavafinancial" target="_blank"
