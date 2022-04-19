@@ -1,9 +1,9 @@
 <template>
   <div class="app-container text-center">
 <!--    <h3 class="text-lg leading-6 font-medium">Last 30 days</h3>-->
-    <dl class="mt-5 grid grid-cols-1 rounded-lg bg-lava-orange/20 overflow-hidden shadow divide-y divide-lava-orange/20 md:grid-cols-3 md:divide-y-0 md:divide-x">
-      <div v-for="item in stats" :key="item.name" class="px-4 py-5 sm:p-6">
-        <dt class="text-base font-normal text-lava-yellow">
+    <dl class="mt-5 grid grid-cols-1 bg-lava-dark-blue rounded-4 border border-lava-yellow glow-shadow-yellow overflow-hidden md:grid-cols-3">
+      <div v-for="item in stats" :key="item.name" class="px-4 py-5 sm:p-8">
+        <dt class="text-lg font-normal text-lava-yellow">
           {{ item.name }}
         </dt>
         <dd class="mt-2 text-4xl font-semibold">

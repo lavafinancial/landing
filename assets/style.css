@@ -5,12 +5,20 @@
 @layer base {
   body {
     @apply text-slate-100;
-    background: linear-gradient(to bottom, #1c0e3d, #0f051d);
+    background: radial-gradient(circle closest-corner at 120vw 50%, rgba(140, 8, 44, 0.5), transparent), linear-gradient(to bottom, #170d2d, #0f051d);
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
   }
 
   .app-container {
     @apply max-w-screen-xl mx-auto px-4 sm:px-8 lg:px-12;
+  }
+
+  .glow-shadow-yellow {
+    box-shadow: 0 0 23px 0 rgba(252, 169, 3, 0.75);
+  }
+
+  .glow-shadow-red {
+    box-shadow: 0 0 23px 0 rgba(181, 25, 33, 0.75);
   }
 }

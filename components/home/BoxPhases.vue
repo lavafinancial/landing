@@ -1,24 +1,23 @@
 <template>
   <div class="app-container relative">
-    <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-center">
-      The new node protocol standard
+    <h2 class="text-white text-3xl md:text-[42px] leading-tight font-bold max-w-xs md:max-w-lg">
+      The new node protocol&nbsp;standard
     </h2>
-    <div class="mt-6 py-12 relative">
-      <div class="">
-        <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
+
+    <div class="mt-10 md:mt-14 p-6 md:p-10 relative bg-lava-dark-blue rounded-4 border border-lava-yellow glow-shadow-yellow">
+        <dl class="space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-10">
           <div v-for="feature in features" :key="feature.name">
             <dt>
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-lava-red text-white">
-                <component :is="feature.icon" class="h-6 w-6" aria-hidden="true"/>
-              </div>
-              <p class="mt-5 text-lg leading-6 font-medium text-lava-yellow">{{ feature.name }}</p>
+<!--              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-lava-red text-white">-->
+<!--                <component :is="feature.icon" class="h-6 w-6" aria-hidden="true"/>-->
+<!--              </div>-->
+              <p class="text-2xl md:text-3xl leading-tight font-medium text-lava-yellow">{{ feature.name }}</p>
             </dt>
-            <dd class="mt-2 text-base text-slate-300">
+            <dd class="mt-4 lg:mt-6 text-base leading-7 text-slate-200">
               {{ feature.description }}
             </dd>
           </div>
         </dl>
-      </div>
     </div>
   </div>
 </template>
@@ -40,7 +39,7 @@ const features = [
     icon: ScaleIcon
   },
   {
-    name: 'Phase 3: Complete Self Sustainability',
+    name: 'Complete Self Sustainability',
     description:
         'The protocol will at this point be able to support near 100% nLAVA payouts and will be fully self-sustainable with income generated via sister projects, treasury farming, healthy taxes, angel investments and royalties.',
     icon: LightningBoltIcon

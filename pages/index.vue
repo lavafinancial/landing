@@ -1,5 +1,5 @@
 <template>
-  <div class="relative min-h-screen">
+  <div class="relative min-h-screen overflow-x-hidden">
     <div class="absolute inset-0 z-0 justify-end overflow-hidden pointer-events-none">
       <div class="relative app-container">
         <img
@@ -10,10 +10,10 @@
 
     <div class="app-container pt-10 md:pt-20 relative">
       <IconsLavaLogo class="ml-3.5 mb-4 w-24 h-24"/>
-      <h1 class="text-white text-4xl md:text-6xl font-bold">Lava Financial</h1>
-      <h2 class="mt-8 md:mt-12 text-lava-red text-2xl md:text-[42px] leading-tight font-semibold max-w-xs md:max-w-lg">
-        Welcome to the most explosive place in DeFi.</h2>
-      <p class="mt-4 md:mt-6 text-lava-red md:text-xl">Website & Launch coming soon</p>
+      <h1 class="text-white text-5xl md:text-6xl font-bold">Lava Financial</h1>
+      <h2 class="mt-20 md:mt-24 text-white text-3xl md:text-[42px] leading-tight font-bold max-w-xs md:max-w-lg">
+        Welcome to the most explosive place in DeFi.
+      </h2>
 
       <div
           class="mt-8 md:mt-12 flex items-start flex-col space-y-6 lg:flex-row lg:items-center lg:space-x-8 lg:space-y-0">
@@ -24,10 +24,21 @@
     </div>
 
     <HomeBoxPhases class="mt-96"/>
-    <HomeBoxFeatures/>
-    <HomeBoxFAQ/>
-    <HomeBoxNumbers class="my-12"/>
-    <HomeBoxTeam/>
+    <div class="relative">
+      <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute -top-20 right-0 transform translate-x-1/2"/>
+      <HomeBoxFeatures class="relative mt-80"/>
+    </div>
+    <div class="relative">
+      <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute -top-60 left-0 transform -translate-x-1/2"/>
+      <HomeBoxFAQ class="relative mt-80"/>
+    </div>
+    <HomeBoxNumbers class="mt-80"/>
+
+    <div class="relative">
+      <img src="/imgs/topo2.svg" width="1400" class="opacity-30 absolute -top-60 right-0 transform translate-x-1/3"/>
+      <HomeBoxTeam class="relative mt-80"/>
+    </div>
+    <div class="py-40"></div>
   </div>
 </template>
 

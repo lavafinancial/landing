@@ -1,23 +1,27 @@
 <template>
-  <div class="">
-    <div class="app-container py-16 lg:py-20">
-      <div class="lg:grid lg:grid-cols-3 lg:gap-8">
-        <div>
-          <h2 class="text-3xl font-extrabold">Frequently asked questions</h2>
-          <p class="mt-4 text-lg text-slate-300">Can’t find the answer you’re looking for? Reach out to our <a href="mailto:support@lava.financial" class="font-medium text-lava-yellow hover:underline">user support</a> team.</p>
-        </div>
-        <div class="mt-12 lg:mt-0 lg:col-span-2">
-          <dl class="space-y-12">
-            <div v-for="faq in faqs" :key="faq.question">
-              <dt class="text-lg leading-6 font-medium text-lava-yellow">
-                {{ faq.question }}
-              </dt>
-              <dd class="mt-2 text-base text-slate-300">
-                {{ faq.answer }}
-              </dd>
-            </div>
-          </dl>
-        </div>
+  <div class="app-container">
+    <div class="lg:grid lg:grid-cols-3 lg:gap-8">
+      <div>
+        <h2 class="text-white text-3xl md:text-[42px] leading-tight font-bold lg:max-w-xs">
+          Frequently asked questions
+        </h2>
+        <p class="mt-8 text-lg text-slate-200 lg:mr-20">
+          Can’t find the answer you’re looking for? Reach out to our <a
+            href="mailto:support@lava.financial" class="font-medium text-lava-yellow hover:underline">user support</a>
+          team.
+        </p>
+      </div>
+      <div class="mt-12 lg:mt-2 lg:col-span-2">
+        <dl class="space-y-16">
+          <div v-for="faq in faqs" :key="faq.question">
+            <dt class="text-xl leading-6 font-medium text-lava-yellow">
+              {{ faq.question }}
+            </dt>
+            <dd class="mt-2 text-base text-slate-200 leading-7">
+              {{ faq.answer }}
+            </dd>
+          </div>
+        </dl>
       </div>
     </div>
   </div>
@@ -29,7 +33,7 @@ const faqs = [
   {
     question: 'What will the treasury be investing in?',
     answer:
-        'Sister Projects, DeFi wizard managed portfolio investment, Angel investment in innovative projects, stablecoin/bluechip strategies, and safe yield farming.',
+        'Sister Projects, DeFi wizard managed portfolio investment, Angel investment in innovative projects, stablecoin/bluechip strategies, and safe yield farming.'
   },
   {
     question: 'How can I trust this project?',
