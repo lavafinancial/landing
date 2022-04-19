@@ -21,4 +21,24 @@
   .glow-shadow-red {
     box-shadow: 0 0 23px 0 rgba(181, 25, 33, 0.75);
   }
+
+  .floating-1 {
+    animation: 3.6s ease-in-out 0s alternate infinite floating;
+  }
+  .delay-1 {
+    animation-delay: 1s;
+  }
+  .delay-2 {
+    animation-delay: 2s;
+  }
+
+  @keyframes floating {
+    from {
+      transform: translateY(0);
+    }
+
+    to {
+      transform: translateY(100px);
+    }
+  }
 }

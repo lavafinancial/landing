@@ -4,7 +4,24 @@
       <div class="relative app-container">
         <img
             class="absolute -right-[200px] top-[300px] w-[600px] md:top-[300px] lg:top-[70px] md:w-[1100px] max-w-none md:max-w-full"
-            src="/imgs/vulcano.svg">
+            src="/imgs/vulcano.svg"
+            v-if="!isWebmSupported">
+        <video
+            ref="videoElement"
+            muted
+            autoplay
+            playsinline
+            loop
+            class="absolute -right-[150px] top-[300px] w-[600px] md:-right-[200px] md:top-[300px]  lg:-right-[350px] lg:top-[20px] md:w-[1350px] max-w-none md:max-w-full"
+            src="/video/vulcano.webm"
+            v-else/>
+
+        <img src="/imgs/rock.png" class="absolute top-20 top-0 md:top-40 -right-4 lg:-right-20 floating-1"/>
+        <img src="/imgs/rock2.png"
+             class="absolute top-60 -left-20 md:left-20 lg:top-8Island.webm0 lg:left-80 floating-1 delay-1"/>
+        <img src="/imgs/rock21.png"
+             class="absolute top-10 left-44 md:left-96 md:top-40 lg:top-60 lg:left-[700px] floating-1 delay-2"/>
+
       </div>
     </div>
 
@@ -23,7 +40,7 @@
       </div>
     </div>
 
-    <HomeBoxPhases class="mt-96"/>
+    <HomeBoxPhases class="mt-[500px]"/>
     <div class="relative">
       <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute -top-20 right-0 transform translate-x-1/2"/>
       <HomeBoxFeatures class="relative mt-80"/>
@@ -45,6 +62,7 @@
 <script lang="ts" setup>
 import { useHead } from '@vueuse/head';
 import { useRuntimeConfig } from '#app';
+import { onMounted } from '@vue/runtime-core';
 
 const config = useRuntimeConfig();
 
@@ -72,5 +90,10 @@ useHead({
   ]
 });
 
+declare const Modernizr: any;
+const isWebmSupported = ref(process.client && Modernizr.video && Modernizr.video.webm);
+onMounted(() => {
+  isWebmSupported.value = Modernizr.video && Modernizr.video.webm;
+});
 
 </script>
