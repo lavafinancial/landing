@@ -4,7 +4,7 @@
       <div class="lg:grid lg:grid-cols-3 lg:gap-8">
         <div>
           <h2 class="text-3xl font-extrabold">Frequently asked questions</h2>
-<!--          <p class="mt-4 text-lg text-gray-500">Can’t find the answer you’re looking for? Reach out to our <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">customer support</a> team.</p>-->
+          <p class="mt-4 text-lg text-slate-300">Can’t find the answer you’re looking for? Reach out to our <a href="mailto:support@lava.financial" class="font-medium text-lava-yellow hover:underline">user support</a> team.</p>
         </div>
         <div class="mt-12 lg:mt-0 lg:col-span-2">
           <dl class="space-y-12">

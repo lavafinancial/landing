@@ -28,8 +28,8 @@
 import { ArrowSmDownIcon, ArrowSmUpIcon } from '@heroicons/vue/solid'
 
 const stats = [
-  { name: 'Token Price', stat: '71,897', previousStat: '70,946', change: '12%', changeType: 'increase' },
-  { name: '24HR Volume', stat: '58.16%', previousStat: '56.14%', change: '2.02%', changeType: 'increase' },
-  { name: 'Market Cap', stat: '24.57%', previousStat: '28.62%', change: '4.05%', changeType: 'decrease' },
+  { name: 'Initial Price', stat: '$0.60', previousStat: '70,946', change: '12%', changeType: 'increase' },
+  { name: '24HR Volume', stat: '---', previousStat: '56.14%', change: '2.02%', changeType: 'increase' },
+  { name: 'Market Cap', stat: '$6.0M', previousStat: '28.62%', change: '4.05%', changeType: 'decrease' },
 ]
 </script>

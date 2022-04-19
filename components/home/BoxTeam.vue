@@ -48,11 +48,11 @@ const people = [
     email: 'appljuze@lava.financial',
   },
   {
-    name: 'Alan',
-    discordName: 'Bitcoin Bart',
-    role: 'Project Athena Manager',
-    imageUrl: '/imgs/team/bart.jpg',
-    email: 'bart@lava.financial',
+    name: 'Sang',
+    discordName: 'xMeeSeeksx',
+    role: 'CFO',
+    imageUrl: '/imgs/team/meeseeks.jpg',
+    email: 'meeseeks@lava.financial',
   },
   {
     name: 'Ari',
@@ -62,11 +62,11 @@ const people = [
     email: 'ari@lava.financial',
   },
   {
-    name: 'Sang',
-    discordName: 'xMeeSeeksx',
-    role: 'CFO',
-    imageUrl: '/imgs/team/meeseeks.jpg',
-    email: 'meeseeks@lava.financial',
+    name: 'Alan',
+    discordName: 'Bitcoin Bart',
+    role: 'Project Athena Manager',
+    imageUrl: '/imgs/team/bart.jpg',
+    email: 'bart@lava.financial',
   },
 ]
 </script>
