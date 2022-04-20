@@ -12,7 +12,7 @@ export default defineNuxtConfig({
                 },
             },
         },
-        transpile: ['@heroicons/vue']
+        transpile: ['@heroicons/vue', '@headlessui/vue']
     },
     publicRuntimeConfig: {
         BASE_URL: process.env.BASE_URL || 'https://www.lava.financial'
