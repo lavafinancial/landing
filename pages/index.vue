@@ -11,9 +11,9 @@
             muted
             autoplay
             playsinline
-            loop
             class="absolute -right-[150px] top-[300px] w-[600px] md:-right-[200px] md:top-[300px]  lg:-right-[350px] lg:top-[20px] md:w-[1350px] max-w-none md:max-w-full"
-            src="/video/vulcano.webm"
+            src="/video/vulcano.webm?v2"
+            @ended="$event.target.currentTime = 0.12, $event.target.play()"
             v-else/>
 
         <img src="/imgs/rock.png" class="absolute top-20 top-0 md:top-40 -right-4 lg:-right-20 floating-1"/>
@@ -43,17 +43,21 @@
     <HomeBoxPhases class="mt-[500px]"/>
     <div class="relative">
       <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute -top-20 right-0 transform translate-x-1/2"/>
-      <HomeBoxFeatures class="relative mt-80"/>
+      <HomeBoxFeatures class="relative mt-40 md:mt-60 lg:mt-80"/>
     </div>
     <div class="relative">
       <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute -top-60 left-0 transform -translate-x-1/2"/>
-      <HomeBoxFAQ class="relative mt-80"/>
+      <Roadmap class="relative mt-40 md:mt-60 lg:mt-80"/>
     </div>
-    <HomeBoxNumbers class="mt-80"/>
+    <div class="relative">
+      <img src="/imgs/topo2.svg" width="1400" class="opacity-30 absolute -top-20 right-40 transform translate-x-1/2 rotate-90"/>
+      <HomeBoxFAQ class="relative mt-40 md:mt-60 lg:mt-80"/>
+    </div>
+    <HomeBoxNumbers class="mt-40 md:mt-60 lg:mt-80"/>
 
     <div class="relative">
-      <img src="/imgs/topo2.svg" width="1400" class="opacity-30 absolute -top-60 right-0 transform translate-x-1/3"/>
-      <HomeBoxTeam class="relative mt-80"/>
+      <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute -top-60 left-0 transform -translate-x-1/3 -rotate-90"/>
+      <HomeBoxTeam class="relative mt-40 md:mt-60 lg:mt-80"/>
     </div>
     <div class="py-40"></div>
   </div>
@@ -63,6 +67,7 @@
 import { useHead } from '@vueuse/head';
 import { useRuntimeConfig } from '#app';
 import { onMounted } from '@vue/runtime-core';
+import Roadmap from '~/components/home/Roadmap.vue';
 
 const config = useRuntimeConfig();
 
