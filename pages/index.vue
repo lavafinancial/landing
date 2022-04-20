@@ -20,7 +20,7 @@
         <img src="/imgs/rock2.png"
              class="absolute top-60 -left-20 md:left-20 lg:top-8Island.webm0 lg:left-80 floating-1 delay-1"/>
         <img src="/imgs/rock21.png"
-             class="absolute top-10 left-44 md:left-96 md:top-40 lg:top-60 lg:left-[700px] floating-1 delay-2"/>
+             class="absolute top-40 left-[50%] md:left-96 md:top-40 lg:top-60 lg:left-[700px] floating-1 delay-2"/>
 
       </div>
     </div>
