@@ -78,7 +78,7 @@
       <HomeBoxFAQ class="relative mt-40 md:mt-60 lg:mt-80"/>
     </div>
 
-    <div class="app-container relative">
+    <div class="app-container relative z-10">
       <img src="/imgs/rock.png" class="absolute top-80 -left-5 xl:-left-24 floating-1"/>
       <img src="/imgs/rock2.png"
            class="absolute top-[520px] -right-40 floating-1 delay-1"/>
