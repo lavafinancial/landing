@@ -13,7 +13,7 @@
             playsinline
             loop
             class="absolute -right-[150px] top-[300px] w-[600px] md:-right-[200px] md:top-[300px]  lg:-right-[350px] lg:top-[20px] md:w-[1350px] max-w-none md:max-w-full"
-            src="/video/vulcano.webm?v2"
+            src="/video/vulcano.webm?v3"
             v-else/>
 
         <img src="/imgs/rock.png" class="absolute top-20 md:top-40 -right-4 lg:-right-20 floating-1"/>
