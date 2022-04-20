@@ -16,9 +16,9 @@
             src="/video/vulcano.webm?v2"
             v-else/>
 
-        <img src="/imgs/rock.png" class="absolute top-20 top-0 md:top-40 -right-4 lg:-right-20 floating-1"/>
+        <img src="/imgs/rock.png" class="absolute top-20 md:top-40 -right-4 lg:-right-20 floating-1"/>
         <img src="/imgs/rock2.png"
-             class="absolute top-60 -left-20 md:left-20 lg:top-8Island.webm0 lg:left-80 floating-1 delay-1"/>
+             class="absolute top-60 -left-20 md:left-20 lg:top-80 lg:left-80 floating-1 delay-1"/>
         <img src="/imgs/rock21.png"
              class="absolute top-40 left-[50%] md:left-96 md:top-40 lg:top-60 lg:left-[700px] floating-1 delay-2"/>
 
@@ -41,22 +41,56 @@
     </div>
 
     <HomeBoxPhases class="mt-[500px]"/>
-    <div class="relative">
-      <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute -top-20 right-0 transform translate-x-1/2"/>
-      <HomeBoxFeatures class="relative mt-40 md:mt-60 lg:mt-80"/>
-    </div>
-    <div class="relative">
-      <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute top-10 left-0 transform -translate-x-1/2"/>
-      <HomeRoadmap class="relative mt-40 md:mt-60 lg:mt-80"/>
-    </div>
-    <div class="relative">
-      <img src="/imgs/topo2.svg" width="1400" class="opacity-30 absolute -top-20 right-40 transform translate-x-1/2 rotate-90"/>
-      <HomeBoxFAQ class="relative mt-40 md:mt-60 lg:mt-80"/>
-    </div>
-    <HomeBoxNumbers class="mt-40 md:mt-60 lg:mt-80"/>
 
     <div class="relative">
-      <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute -top-60 left-0 transform -translate-x-1/3 -rotate-90"/>
+      <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute -top-20 right-0 transform translate-x-1/2"/>
+
+      <div class="app-container relative">
+        <img src="/imgs/rock.png" class="absolute top-80 -left-5 xl:-left-24 floating-1"/>
+        <img src="/imgs/rock2.png"
+             class="absolute top-[520px] -right-40 floating-1 delay-1"/>
+        <img src="/imgs/rock21.png"
+             class="absolute top-[-100px] right-[10%] xl:top-0 xl:right-[20%]  floating-1 delay-2"/>
+      </div>
+
+      <HomeBoxFeatures class="relative mt-40 md:mt-60 lg:mt-80"/>
+    </div>
+
+    <HomeBoxAudits class="mt-40 md:mt-60 lg:mt-80"/>
+
+    <div class="relative">
+      <img src="/imgs/topo1.svg" width="1400" class="opacity-30 absolute top-10 left-0 transform -translate-x-1/2"/>
+
+      <div class="app-container relative">
+        <img src="/imgs/rock.png" class="absolute top-96 -right-8 xl:-right-40 floating-1"/>
+        <img src="/imgs/rock2.png"
+             class="absolute top-[720px] -left-5 xl:-left-24 delay-1 floating-1 "/>
+        <img src="/imgs/rock21.png"
+             class="absolute top-[-100px] left-[50%] md:left-[10%] xl:top-0 xl:left-[20%]  floating-1 delay-2"/>
+      </div>
+
+      <HomeRoadmap class="relative mt-40 md:mt-60 lg:mt-80"/>
+    </div>
+
+    <div class="relative">
+      <img src="/imgs/topo2.svg" width="1400"
+           class="opacity-30 absolute -top-20 right-40 transform translate-x-1/2 rotate-90"/>
+      <HomeBoxFAQ class="relative mt-40 md:mt-60 lg:mt-80"/>
+    </div>
+
+    <div class="app-container relative">
+      <img src="/imgs/rock.png" class="absolute top-80 -left-5 xl:-left-24 floating-1"/>
+      <img src="/imgs/rock2.png"
+           class="absolute top-[520px] -right-40 floating-1 delay-1"/>
+      <img src="/imgs/rock21.png"
+           class="absolute top-[100px] right-[10%] xl:right-[20%]  floating-1 delay-2"/>
+    </div>
+
+    <HomeBoxNumbers class="relative z-10 mt-40 md:mt-60 lg:mt-80"/>
+
+    <div class="relative">
+      <img src="/imgs/topo1.svg" width="1400"
+           class="opacity-30 absolute -top-60 left-0 transform -translate-x-1/3 -rotate-90"/>
       <HomeBoxTeam class="relative mt-40 md:mt-60 lg:mt-80"/>
     </div>
     <div class="py-40"></div>
