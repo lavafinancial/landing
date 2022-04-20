@@ -53,7 +53,7 @@ const faqs = [
   {
     question: 'How does governance work?',
     answer:
-        'We will set aside a portion of our investment treasury for community driven strategies. Shortlisted strategies will be presented to the users for voting (using gLava) and decisions made by users will be executed without delays.'
+        'A portion of our treasury investments, as well as significant protocol decisions, will be put to a community vote. Members will be able to vote using our gLAVA token, where the voting weight is determined by users’ stake in the protocol.'
   }
 ];
 </script>

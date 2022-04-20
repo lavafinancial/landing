@@ -34,10 +34,9 @@
 
       <div
           class="mt-8 md:mt-12 flex items-start flex-col space-y-6 lg:flex-row lg:items-center lg:space-x-8 lg:space-y-0">
-<!--        <BaseButton target="_blank" href="/lava_whitepaper.pdf" type="primary" size="big">Whitepaper</BaseButton>-->
         <Popover class="relative" v-slot="{ close }">
           <PopoverButton>
-            <BaseButton @click.prevent type="primary" size="big">Whitepaper</BaseButton>
+            <BaseButton class="outline-none" type="primary" size="big">Whitepaper</BaseButton>
           </PopoverButton>
           <transition
               enter-active-class="transition ease-out duration-200"
@@ -51,7 +50,7 @@
                 class="absolute z-10 left-0 transform sm:px-0 glow-shadow-yellow border border-lava-orange overflow-hidden bg-lava-dark-blue"
             >
               <a
-                  class="flex py-2 px-5 hover:bg-lava-orange"
+                  class="outline-none flex py-2 px-5 hover:bg-lava-orange focus-visible:bg-lava-orange"
                   :href="wpLink.link"
                   target="_blank"
                   @click="close()"
@@ -131,6 +130,7 @@ import { useHead } from '@vueuse/head';
 import { useRuntimeConfig } from '#app';
 import { onMounted } from '@vue/runtime-core';
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue';
+import { ref } from 'vue';
 
 const config = useRuntimeConfig();
 
@@ -159,7 +159,7 @@ useHead({
 });
 
 declare const Modernizr: any;
-const isWebmSupported = ref(process.client && Modernizr.video && Modernizr.video.webm);
+const isWebmSupported = ref(false);
 onMounted(() => {
   isWebmSupported.value = Modernizr.video && Modernizr.video.webm;
 });
@@ -169,7 +169,7 @@ const wpLinks = [
   {language: 'French', link: '/wp/lava_wp_fr.pdf'},
   {language: 'Spanish', link: '/wp/lava_wp_es.pdf'},
   {language: 'Slovakian', link: '/wp/lava_wp_sk.pdf'},
-  {language: 'Korean', link: '/wp/lava_wp_ko.pdf'},
+  {language: 'Korean', link: '/wp/lava_wp_ko.pdf'}
 ];
 
 </script>
