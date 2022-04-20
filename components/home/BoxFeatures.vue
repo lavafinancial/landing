@@ -57,7 +57,7 @@ const features = [
   },
   {
     name: 'In-House NFT Marketplace',
-    description: 'Buy and sell Fusion, Wallet Booster NFTs and when enabled your nodes directly on our platform using LAVA as the currency.',
+    description: 'Buy and sell Fusion, Wallet Booster NFTs, and eventually your nodes directly on our platform using LAVA as the currency.',
     icon: PhotographIcon
   },
   {
