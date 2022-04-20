@@ -33,22 +33,22 @@ const faqs = [
   {
     question: 'What will the treasury be investing in?',
     answer:
-        'Sister Projects, DeFi wizard managed portfolio investment, Angel investment in innovative projects, stablecoin/bluechip strategies, and safe yield farming.'
+        'In-house sister companies, safe yield farming strategies, stablecoin looping, bluechip coin staking, angel investments, & a small high-risk portfolio.'
   },
   {
     question: 'How can I trust this project?',
     answer:
-        'KYC with Public Core Team members, Audited contracts, multisig wallets for all project finances, sustainability-first approach.'
+        'Publicly doxed core team members & KYC, audited contracts, a 5 person multi-sig wallet for all project transactions - a security first approach.'
   },
   {
     question: 'What makes you different from other projects?',
     answer:
-        'We intend to truly solve the sustainability problem that is core to all node projects. With our innovative mechanisms fully in place and working as intended, we aim to be the first project that attains true sustainability.'
+        'We intend to truly solve the sustainability problem that is core to all node protocols. With our innovative mechanisms fully in place, working as intended, we will be the first project that attains true self sustainability.'
   },
   {
     question: 'Upcoming features?',
     answer:
-        'Gamification using nodes that provides real rewards to users, in-dApp store, ecosystem integration with sister projects.'
+        'NFT Marketplace for our nodes, Fusion NFTs and more. Node health system using True-ROI™'
   },
   {
     question: 'How does governance work?',

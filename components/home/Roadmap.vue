@@ -57,18 +57,12 @@ const roadmap = [
   {
     title: 'Q3 2022',
     points: [
-      'Lava ecosystem fully functioning (Sister projects, angel investments, etc)',
+      'Ecosystem fully functioning (Sister projects, angel investments, etc)',
       'Development of additional sister projects',
       'Performance report for Round 1 Angel Investments release'
     ]
   },
-  {
-    title: 'Q4 2022',
-    points: [
-      'Launch of additional sister projects',
-      'Angel Investment Round 2 begins'
-    ]
-  }
+
 ];
 
 </script>

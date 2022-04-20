@@ -62,7 +62,7 @@ const features = [
   },
   {
     name: 'Peer-to-Peer OTC',
-    description: 'Custom built Discord bot for matching up buyers and sellers. Users will be able to benefit from this system by avoiding price impact as well as receiving a 1% discount to market value.',
+    description: 'Custom built Discord bot for matching up buyers and sellers. Users will be able to benefit from this system by avoiding price impact.',
     icon: UserGroupIcon
   },
   {

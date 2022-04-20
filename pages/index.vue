@@ -34,7 +34,36 @@
 
       <div
           class="mt-8 md:mt-12 flex items-start flex-col space-y-6 lg:flex-row lg:items-center lg:space-x-8 lg:space-y-0">
-        <BaseButton target="_blank" href="/lava_whitepaper.pdf" type="primary" size="big">Whitepaper</BaseButton>
+<!--        <BaseButton target="_blank" href="/lava_whitepaper.pdf" type="primary" size="big">Whitepaper</BaseButton>-->
+        <Popover class="relative" v-slot="{ close }">
+          <PopoverButton>
+            <BaseButton @click.prevent type="primary" size="big">Whitepaper</BaseButton>
+          </PopoverButton>
+          <transition
+              enter-active-class="transition ease-out duration-200"
+              enter-from-class="opacity-0 translate-y-1"
+              enter-to-class="opacity-100 translate-y-0"
+              leave-active-class="transition ease-in duration-150"
+              leave-from-class="opacity-100 translate-y-0"
+              leave-to-class="opacity-0 translate-y-1"
+          >
+            <PopoverPanel
+                class="absolute z-10 left-0 transform sm:px-0 glow-shadow-yellow border border-lava-orange overflow-hidden bg-lava-dark-blue"
+            >
+              <a
+                  class="flex py-2 px-5 hover:bg-lava-orange"
+                  :href="wpLink.link"
+                  target="_blank"
+                  @click="close()"
+                  v-for="wpLink in wpLinks"
+                  :key="wpLink.language"
+              >
+                {{ wpLink.language }}
+              </a>
+            </PopoverPanel>
+          </transition>
+        </Popover>
+
         <BaseButton target="_blank" href="https://discord.gg/lavafinancial" type="primary" size="big">Join Discord
         </BaseButton>
       </div>
@@ -101,6 +130,7 @@
 import { useHead } from '@vueuse/head';
 import { useRuntimeConfig } from '#app';
 import { onMounted } from '@vue/runtime-core';
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue';
 
 const config = useRuntimeConfig();
 
@@ -133,5 +163,13 @@ const isWebmSupported = ref(process.client && Modernizr.video && Modernizr.video
 onMounted(() => {
   isWebmSupported.value = Modernizr.video && Modernizr.video.webm;
 });
+
+const wpLinks = [
+  {language: 'English', link: '/wp/lava_wp_en.pdf'},
+  {language: 'French', link: '/wp/lava_wp_fr.pdf'},
+  {language: 'Spanish', link: '/wp/lava_wp_es.pdf'},
+  {language: 'Slovakian', link: '/wp/lava_wp_sk.pdf'},
+  {language: 'Korean', link: '/wp/lava_wp_ko.pdf'},
+];
 
 </script>
