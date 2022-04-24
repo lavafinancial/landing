@@ -23,11 +23,10 @@
           <IconsIMedium class="w-6 h-6 sm:w-7 sm:h-7"/>
         </a>
       </div>
-      <a href="#" class="flex p-2 hover:text-lava-orange transition duration-200 ease-in-out ml-8"
-         @mouseenter="switchTextTo('Coming Soon')"
-         @mouseleave="switchTextTo('Launch App')"
+      <a href="https://app.lava.financial/"
+         class="flex p-2 hover:text-lava-orange transition duration-200 ease-in-out ml-8"
       >
-        {{ buttonText }}
+        Launch App
       </a>
     </div>
   </div>
