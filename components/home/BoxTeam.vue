@@ -33,18 +33,18 @@
 <script lang="ts" setup>
 const people = [
   {
-    name: 'Kyle',
-    discordName: 'Appljuze',
-    role: 'Co-CEO',
-    imageUrl: '/imgs/team/appljuze.jpg',
-    email: 'appljuze@lava.financial'
-  },
-  {
     name: 'Ari',
     discordName: 'Ari',
     role: 'Founder & CEO',
     imageUrl: '/imgs/team/ari.jpg',
     email: 'ari@lava.financial'
+  },
+  {
+    name: 'Kyle',
+    discordName: 'Appljuze',
+    role: 'Co-CEO',
+    imageUrl: '/imgs/team/appljuze.jpg',
+    email: 'appljuze@lava.financial'
   },
   {
     name: 'Alan',
