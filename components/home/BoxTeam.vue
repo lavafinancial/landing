@@ -47,13 +47,6 @@ const people = [
     email: 'appljuze@lava.financial'
   },
   {
-    name: 'Sang',
-    discordName: 'xMeeSeeksx',
-    role: 'CFO',
-    imageUrl: '/imgs/team/meeseeks.jpg',
-    email: 'meeseeks@lava.financial'
-  },
-  {
     name: 'Ari',
     discordName: 'Ari',
     role: 'Founder',
