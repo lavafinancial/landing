@@ -6,7 +6,7 @@
            class="flex p-2 hover:text-lava-orange transition duration-200 ease-in-out">
           <IconsIDiscord class="w-6 h-6 sm:w-7 sm:h-7"/>
         </a>
-        <a href="https://twitter.com/Lavanodes" target="_blank"
+        <a href="https://twitter.com/lavafinancial" target="_blank"
            class="flex p-2 hover:text-lava-orange transition duration-200 ease-in-out">
           <IconsITwitter class="w-6 h-6 sm:w-7 sm:h-7"/>
         </a>
