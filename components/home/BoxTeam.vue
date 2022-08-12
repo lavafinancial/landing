@@ -39,13 +39,13 @@ const people = [
     imageUrl: '/imgs/team/ari.jpg',
     email: 'ari@lava.financial'
   },
-  {
-    name: 'Kyle',
-    discordName: 'Appljuze',
-    role: 'Co-CEO',
-    imageUrl: '/imgs/team/appljuze.jpg',
-    email: 'appljuze@lava.financial'
-  },
+  // {
+  //   name: 'Kyle',
+  //   discordName: 'Appljuze',
+  //   role: 'Co-CEO',
+  //   imageUrl: '/imgs/team/appljuze.jpg',
+  //   email: 'appljuze@lava.financial'
+  // },
   {
     name: 'Alan',
     discordName: 'Bitcoin Bart',
